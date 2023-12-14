@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    text-align: center;
+    margin: 30px auto;
+    width: 40vw;
+    height: 60vh;
+    background-color: #5A55E6;
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.content h1 {
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.form-container {
+    margin: 30px auto;
+    width: 35vw;
+    height: 45vh;
+    background-color: rgb(162, 162, 177);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;  
+}
+
+.form-container h2{
+    font-size: 25px;
+ 
+}
+
+#log-in {
+    width: 200px;
+    font-size: 18px;
+}
+
+
+.cont-form-user, .cont-form-pass{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.cont-form-user label, .cont-form-user select, .cont-form-pass label, .cont-form-pass input {
+    padding: 5px 0;
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    font-size: 15px;
+    margin: 15px 0 0;
+    padding: 8px 0;
+    border-radius: 15px;
+    border: none;
+    background-color: #5A55E6;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #382EE5;
+}
+
+#operaciones {
+    margin: 10px auto;
+    flex-direction: column;
+    display: none;
+}
+
+.operaciones-container h3 {
+    margin-bottom: 10px;
+}
+
+.operaciones-container button {
+    padding: 14px;
+    margin: 10px 0;
+}
+
+#resultado {
+    margin-top: 20px;
+      font-weight: bold;
+      padding: 10px;
+      background-color: #4890FA;
+      border: 1px solid #382EE5;
+      border-radius: 4px;
+}
+
+.boton {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
